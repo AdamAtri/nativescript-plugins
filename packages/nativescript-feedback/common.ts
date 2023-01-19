@@ -1,4 +1,4 @@
-import { Color } from '@nativescript/core';
+import { Color, View } from '@nativescript/core';
 
 export enum FeedbackPosition {
   Top,
@@ -122,6 +122,8 @@ export interface FeedbackShowOptions {
      */
     iconPulseEnabled?: boolean;
   };
+
+  dialog?: View;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
